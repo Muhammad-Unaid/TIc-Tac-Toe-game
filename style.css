@@ -34,17 +34,23 @@ body{
    background-color: aliceblue;
    color: black;
 }
-#reset{
+.new{
     height: 10vmin;
     width: 29vmin;
-    border-radius: 2vmin;
+    border-radius: 4vmin  4vmin 0  0;
     background-color: black;
     color: aliceblue;
-    border: none
+    border: none;
+    margin: 8px; 
 }
-#reset:hover{
+.new:hover{
     background-color: rgb(82, 190, 154);
     color: white;
     font-size: 4vmin;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px dashed white;
+}
+.hide{
+    font-size: 8vmin;
+    display: none;
 }
