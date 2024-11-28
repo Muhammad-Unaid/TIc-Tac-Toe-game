@@ -67,7 +67,7 @@ const enableBoxes = () => {
 };
 
 const showWinner = (winner) => {
-  msg.innerText = `Congratulations 🎉🥳 Winner is ${winner}`;
+  msg.innerText = `Congratulations 🎉🥳 Winner is "${winner}"`;
   Swal.fire({
     title:  `Congratulation  "${winner}"  is Winner  `,
     width: 500,
@@ -78,8 +78,7 @@ const showWinner = (winner) => {
       rgba(0,0,8,0.4)
       url("https://media.tenor.com/3vO0Yht3MEUAAAAj/congratulation-hbd.gif")
       left top
-      no-repeat
-    `
+      no-repeat`
   });
   msgContainer.classList.remove("hide");
   disableBoxes();

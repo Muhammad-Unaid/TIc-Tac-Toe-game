@@ -91,3 +91,19 @@
     
 
   }
+  .btn1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+ .btn1:hover{
+     border: 2px dashed white;
+ }
+ footer{
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  margin: 10px;
+ }
+ a{
+  text-decoration: none
+ }
