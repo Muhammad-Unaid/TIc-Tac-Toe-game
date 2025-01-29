@@ -72,6 +72,18 @@ const checkWinner = () => {
 
 const showWinner = (winner) => {
   msg.innerText = `Congratulations 🎉 Winner is "${winner}"`;
+  Swal.fire({
+    title:  `Congratulation  "${winner}"  is Winner  `,
+    width: 500,
+    padding: "3em",
+    color: "#ffff",
+    background: "#fff url(https://img.freepik.com/free-vector/ribbon-cutting-ceremony-poster-with-red-curtains-vector-illustration_91128-938.jpg) ",
+    backdrop: `
+      rgba(0,0,8,0.4)
+      url("https://media.tenor.com/3vO0Yht3MEUAAAAj/congratulation-hbd.gif")
+      left top
+      no-repeat`
+  });
   msgContainer.classList.remove("hide");
   disableBoxes();
 };
@@ -92,6 +104,8 @@ const enableBoxes = () => {
     box.innerText = "";
   });
 };
+
+
 
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
