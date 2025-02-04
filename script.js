@@ -1,3 +1,22 @@
+ // Show the SweetAlert popup when the page loads
+ document.addEventListener('DOMContentLoaded', function() {
+    Swal.fire({
+        title: '</br> </br> </br>',
+         width: 500,
+        padding: "3em",
+        color: "#ffff",
+        background: "#fff url(https://i.pinimg.com/originals/ff/81/de/ff81dee1dcdd40d560569fe2ae94b6d3.gif)",
+        backdrop: `
+            rgba(0,0,8,0.4)
+            url("https://media.tenor.com/sCfC2XDlVPYAAAAj/wlcm.gif")
+            left top
+            no-repeat`,
+        borderradius: "85px",
+
+    });
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const singlePlayerBtn = document.getElementById("single-player");
     const twoPlayersBtn = document.getElementById("two-players");
